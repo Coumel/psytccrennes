@@ -8,7 +8,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("{{ site.url }}/assets/images/header-bg.jpg");
+  background-image: url("{{ '/assets/images/header-bg.jpg' | absolute_url }}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -17,7 +17,7 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("{{ site.url }}/assets/images/map-image.png");
+  background-image: url("{{ '/assets/images/map-image.png' | absolute_url }}");
   background-repeat: no-repeat;
   background-position: center;
 }
