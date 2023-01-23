@@ -7771,7 +7771,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #494f54 !important;
 }
 
 .text-black-50 {
@@ -11300,7 +11300,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11312,14 +11312,22 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
   }
+
+    .page-section {
+    padding: 2rem 0;
+  }
 }
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11577,9 +11585,9 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  // border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  // background-color: #ffc800;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
