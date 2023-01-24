@@ -6,3 +6,11 @@ title: "" # the name of your site, e.g. ACME Corp.
 sass:
     sass_dir: _sass
     style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+title: "PSYCHOLOGUE - MELUSINE COURILLEAU"
+description: "psychologue spécialisée dans la thérapie cognitive et comportementale à Rennes"
+locale: "FR"
