@@ -1,15 +1,14 @@
-url: "https://psy-tcc-rennes.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.psy-tcc-rennes.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-
+title: "PSYCHOLOGUE -RENNES- MELUSINE COURILLEAU" # the name of your site, e.g. ACME Corp.
 
 sass:
     sass_dir: _sass
 
+title: "PSYCHOLOGUE - MELUSINE COURILLEAU"
+description: "psychologue spécialisée dans la thérapie cognitive et comportementale à Rennes"
+locale: "Fr"
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-title: "PSYCHOLOGUE - MELUSINE COURILLEAU"
-description: "psychologue spécialisée dans la thérapie cognitive et comportementale à Rennes"
-locale: "FR"
